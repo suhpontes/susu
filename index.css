@@ -1,0 +1,166 @@
+body{
+    background-color:#b6797c;
+    margin: 0;
+
+}
+
+#logosuh{
+    width: 150px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size:1.9rem;
+    margin: 29px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(145, 45, 54);
+  justify-content: space-between;
+  padding: .5rem;
+}
+h1,p{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+section {
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    padding:2rem ;
+   
+ 
+}
+
+#teste{
+    color: rgb(255, 255, 255);
+    margin: 35px;
+    background-color: rgb(145, 45, 54);
+    margin: 0;
+    text-align: center;
+    padding: 15px;
+    
+  
+}
+#Clash{
+    width: 250px;
+    margin: 10px;
+
+}
+#cs{
+    width: 200px;
+    margin: 10px;
+}
+#fifa{
+    width: 200px;
+    margin: 10px;
+}
+
+#suellen{
+    margin-left: 3em;
+}
+#projetos1{
+   
+    
+    flex-direction: column;
+ 
+}
+.grupos{
+    display: flex;
+    align-items: center;
+}
+#desings{
+    color: rgb(255, 255, 255);
+    margin: 35px;
+    background-color: rgb(145, 45, 54);
+    margin: 0;
+    text-align: center;
+    padding: 15px;
+    
+}
+#unhas{
+    width: 300px;
+    margin: 10px;
+    margin-left: 130px;
+}
+#aa{
+    text-align: center;
+}
+#bb{
+    text-align: center;
+}
+#royale{
+    width: 300px;
+    margin-left: 130px;
+}
+#dd{
+    text-align: center; 
+}
+#ee{
+    text-align: center;
+}
+#traba{
+    width: 300px;
+    margin: 10px;
+    margin-left: 130px;
+}
+#trabalhos{
+    text-align: center;
+}
+h2{
+    color: rgb(255, 255, 255);
+    margin: 35px;
+    background-color: rgb(145, 45, 54);
+    margin: 0;
+    text-align: center;
+    padding: 15px;
+
+}
+#suh2{
+    width: 300px;
+    margin-left: 3em;
+}
+#susu2{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    padding:2rem ;
+  
+}
+img.royale{
+    width: 300px;   
+    margin: 10px;
+}
+div.royale{
+   
+display: flex ;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+
+
+}
+@media( max-width:700px){
+    a{
+        font-size:1.4rem;
+    }
+    #logosuh{
+        width: 120px;
+    }
+    section{
+        flex-direction:column-reverse;
+        
+    }
+    #suellen{
+        width: 250px;
+    }
+    p{
+        font-size: .7rem;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+}
